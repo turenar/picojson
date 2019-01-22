@@ -9,6 +9,6 @@ if get_option('use_locale')
 endif
 
 picojson_dep = declare_dependency(
-	include_directories: include_directories('.'),
+	include_directories: include_directories('.', is_system: true),
 	compile_args: compiler_arguments)
 
