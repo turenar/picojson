@@ -8,7 +8,7 @@ if get_option('assert')
 	compiler_arguments += ['-DPICOJSON_ASSERT']
 endif
 if get_option('use_locale')
-	compiler_arguments += ['-PICOJSON_USE_LOCALE']
+	compiler_arguments += ['-DPICOJSON_USE_LOCALE']
 endif
 
 picojson_dep = declare_dependency(
