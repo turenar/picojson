@@ -1,3 +1,2 @@
 option('int64', type: 'boolean', value: true)
-option('assert', type: 'boolean', value: true)
 option('use_locale', type: 'boolean', value: true)
